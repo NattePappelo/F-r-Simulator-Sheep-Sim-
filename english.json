@@ -1,0 +1,12 @@
+{
+    "chooseLanguage":"Choose language",
+    "language":"english",
+    "ifAnything":"anything",
+	"welcome":"Welcome to Sheep simulator ",
+	"order":"Say Baa",
+	"bleats":["Baa", "Ba", "baa", "ba", "BAA", "BA", "Baa!", "Ba!", "baa!", "ba!", "BAA!", "BA!"],
+	"compliment":"Well bleated!",
+	"over":"Game Over!",
+	"again":"Do you want to play again? [Y/N]",
+	"yes":["Y", "y"]  
+}
