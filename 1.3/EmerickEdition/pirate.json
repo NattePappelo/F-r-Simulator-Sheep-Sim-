@@ -1,0 +1,12 @@
+{
+    "chooseLanguage": "PICK SPEAK",
+    "language": "pirate speak (not beginner friendly)",
+    "ifAnything": "DOES IT LOOK LIKE I CARE!?!?!",
+	"welcome":"Come on board landfish traning ",
+	"order":"Speak Arr",
+	"bleats":["Arr", "ARR", "RRR", "rrr", "Rrr", "Arr!!!", "arr!", "ar!", "AR!", "aRR!", "ARR!", "Ar!", "arr"],
+	"compliment":"Great arred!",
+	"over":"Game Over!",
+	"again":"PLAY? [R/r]",
+	"yes":["R"]
+}
