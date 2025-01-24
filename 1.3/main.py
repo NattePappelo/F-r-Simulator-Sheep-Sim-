@@ -44,7 +44,7 @@ for i in range(languageConfigIndex + 1, len(config)):
 #opens the language files
 languages = []
 for i in range(len(languageFiles)):
-    languages.append(json.load(open(languageFiles[i])))
+    languages.append(json.load(open(languageFiles[i], encoding="utf-8")))
 
 
 
