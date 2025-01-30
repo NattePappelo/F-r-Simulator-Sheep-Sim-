@@ -1,4 +1,4 @@
-#Farsimulator by Natte Pappelo
+#Fårsimulator by Natte Pappelo
 version = "1.3"
 
 
@@ -6,7 +6,11 @@ import json
 
 
 #importing the config file
-configFile = open("config.txt", "r")
+try:
+    configFile = open("config.txt", "r")
+except:
+    print("No config.txt file found")
+    exit()
 config = configFile.read().splitlines()
 
 
@@ -29,7 +33,11 @@ for i in comments:
 
 
 #gets the languages from the config file
-languageConfigIndex = config.index("Languages:")
+try:
+    languageConfigIndex = config.index("Languages:")
+except:
+    print("ERROR: No languages found in config.txt")
+    exit()
 languageFiles = []
 
 for i in range(languageConfigIndex + 1, len(config)):
@@ -58,7 +66,7 @@ for i in range(len(languageFiles)):
 #this is the text in the beginning of the game that asks for a number that coresponds to the selected language
 
 if len(languages) == 0:
-    print("No languages found")
+    print("ERROR: No languages found in config.txt")
     exit()
 
 elif len(languages) == 1:
@@ -113,7 +121,11 @@ language = languages[langnum]
 
 
 def text(frase):
-    return language[frase]
+    try:
+        return language[frase]
+    except:
+        print("ERROR: Found no phrase in the language pack called \"" + frase + "\"")
+        exit()
 
 
 
