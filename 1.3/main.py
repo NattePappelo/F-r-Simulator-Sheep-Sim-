@@ -9,7 +9,8 @@ import json
 try:
     configFile = open("config.txt", "r")
 except:
-    print("No config.txt file found")
+    print("ERROR: No config.txt file found")
+    input()
     exit()
 config = configFile.read().splitlines()
 
@@ -37,6 +38,7 @@ try:
     languageConfigIndex = config.index("Languages:")
 except:
     print("ERROR: No languages found in config.txt")
+    input()
     exit()
 languageFiles = []
 
@@ -67,6 +69,7 @@ for i in range(len(languageFiles)):
 
 if len(languages) == 0:
     print("ERROR: No languages found in config.txt")
+    input()
     exit()
 
 elif len(languages) == 1:
@@ -125,6 +128,7 @@ def text(frase):
         return language[frase]
     except:
         print("ERROR: Found no phrase in the language pack called \"" + frase + "\"")
+        input()
         exit()
 
 
