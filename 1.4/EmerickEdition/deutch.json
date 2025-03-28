@@ -1,0 +1,12 @@
+{
+    "chooseLanguage": "Welche Sprache?",
+    "language": "deutsch",
+    "ifAnything": "wähle etwas",
+	"welcome":"Willkommen zum Schaf Simulator ",
+	"order":"Sag Bää",
+	"bleats":["Bää", "Bä", "bä", "bää", "BÄÄ", "BÄ", "Bää!", "Bä!", "bä!", "bää!", "BÄÄ!", "BÄ!"],
+	"compliment":"Gut gebrakt!",
+	"over":"Game Over!",
+	"again":"Wollen Sie wieder spielen? [J/N]",
+	"yes":["J", "j"]
+}
