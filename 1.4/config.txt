@@ -8,6 +8,7 @@ Languages:
 english.json
 swedish.json
 finnish.json
+deutch.json
 pirate.json
 
 end
