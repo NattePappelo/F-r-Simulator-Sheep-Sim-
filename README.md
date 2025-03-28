@@ -10,7 +10,7 @@ as far as i know there is no big differens between 1.1 and 1.0
 
 1.3 added config.txt and the language packs are in .json instead. (my plan is to maybe change the programing language in the future so then its good that it isnt in .py). Also added pirate speak and moved some fases to the language packs that was peviosly in main.py. This was the first version with an Emerick edition.
 
-1.4 Added custom errors and refined the config.txt
+1.4 Added custom errors, german and refined the config.txt.
 
 ### If you need help with installing/running the game see the wiki.
 
