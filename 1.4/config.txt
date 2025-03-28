@@ -1,0 +1,15 @@
+# This is the config file of Får simulator
+# I was made for 1.4 but i work on 1.3 and maybe on later versions (check some sort of documentation)
+
+
+
+# These are the choosen language packs
+Languages:
+english.json
+swedish.json
+finnish.json
+deutch.json
+pirate.json
+
+end
+
